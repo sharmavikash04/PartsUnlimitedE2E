@@ -13,6 +13,7 @@ namespace PartsUnlimited.Controllers
     [Authorize]
     public class AccountController : Controller
     {
+    ///Can
         private SignInManager<ApplicationUser, string> SignInManager
         {
             get
